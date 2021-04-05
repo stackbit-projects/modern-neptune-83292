@@ -10,7 +10,6 @@ export default class Action extends React.Component {
         let action_style = _.get(action, 'style', null) || 'link';
         let action_icon = _.get(action, 'icon', null) || 'arrow-left';
         let action_icon_pos = _.get(action, 'icon_position', null) || 'left';
-        return (
-        );
+       
     }
 }
